@@ -1,0 +1,60 @@
+{
+  "name": "flexible-gatsby",
+  "private": true,
+  "description": "A starter for a paginated blog powered by Gatsby and Markdown",
+  "version": "1.2.0",
+  "author": "Kinyanjui Wangonya",
+  "bugs": {
+    "url": "https://github.com/wangonya/flexible-gatsby/issues"
+  },
+  "dependencies": {
+    "gatsby": "^3.1.0",
+    "gatsby-plugin-feed": "^3.1.0",
+    "gatsby-plugin-google-analytics": "^3.1.0",
+    "gatsby-plugin-image": "^1.1.0",
+    "gatsby-plugin-manifest": "^3.1.0",
+    "gatsby-plugin-offline": "^4.1.0",
+    "gatsby-plugin-react-helmet": "^4.1.0",
+    "gatsby-plugin-sass": "^4.1.0",
+    "gatsby-plugin-sharp": "^3.1.0",
+    "gatsby-remark-copy-linked-files": "^3.1.0",
+    "gatsby-remark-images": "^4.1.0",
+    "gatsby-remark-katex": "^4.1.0",
+    "gatsby-remark-prismjs": "^4.1.0",
+    "gatsby-source-filesystem": "^3.1.0",
+    "gatsby-transformer-remark": "^3.1.0",
+    "gatsby-transformer-sharp": "^3.1.0",
+    "katex": "^0.10.0",
+    "lodash": "^4.17.21",
+    "node-sass": "^5.0.0",
+    "prismjs": "^1.23.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "eslint-plugin-react": "^7.22.0",
+    "prettier": "^2.2.1"
+  },
+  "homepage": "https://github.com/wangonya/flexible-gatsby",
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangonya/flexible-gatsby.git"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "gatsby develop",
+    "develop": "gatsby develop",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
+    "lint": "eslint --ext .js,.jsx --ignore-pattern public .",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js' 'src/**/*.md'",
+    "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js"
+  }
+}
