@@ -41,12 +41,26 @@ class BlogIndex extends React.Component {
                     <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
                   </h2>
                   <p>{node.excerpt}</p>
-                  <span className="post-date">
+                  <div className="demonstration_container">
+                    <ul>
+                      <li>
+                        <a href={`https://${node.frontmatter.demo}`} >
+                          <span>Demo</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href={`https://github.com/${node.frontmatter.source}`} >
+                          <span>Source</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  {/* <span className="post-date">
                     {node.frontmatter.date}&nbsp;&nbsp;—&nbsp;
                   </span>
                   <span className="post-words">
                     {node.timeToRead} minute read
-                  </span>
+                  </span> */}
                 </div>
               </article>
             )
@@ -107,6 +121,8 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "YYYY, MMM DD")
             title
+            demo
+            source
             img {
               childImageSharp {
                 gatsbyImageData(placeholder: BLURRED, layout: FULL_WIDTH, formats: [AUTO, AVIF, WEBP])

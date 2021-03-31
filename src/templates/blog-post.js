@@ -37,11 +37,25 @@ class BlogPostTemplate extends React.Component {
               <div className="wrap-content">
                 <header className="header-page">
                   <h1 className="page-title">{post.frontmatter.title}</h1>
-                  <div className="page-date">
+                  {/* <div className="page-date">
                     <span>{post.frontmatter.date}</span>
-                  </div>
+                  </div> */}
                 </header>
                 <div dangerouslySetInnerHTML={{ __html: post.html }} />
+                <div className="demonstration_container">
+                    <ul>
+                      <li>
+                        <a href={`https://${post.frontmatter.demo}`} >
+                          <span>Demo</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href={`https://github.com/${post.frontmatter.source}`} >
+                          <span>Source</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
                 <div className="page-footer">
                   <div className="page-tag">
                     {post.frontmatter.tags &&
@@ -80,6 +94,8 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "YYYY, MMM DD")
+        demo
+        source
         tags
         img {
           childImageSharp {
