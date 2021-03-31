@@ -43,6 +43,7 @@ class BlogPostTemplate extends React.Component {
                 </header>
                 <div dangerouslySetInnerHTML={{ __html: post.html }} />
                 <div className="demonstration_container">
+                <a   className="design" href={`https://www.figma.com/${post.frontmatter.figma}`}>Figma design</a>
                     <ul>
                       <li>
                         <a href={`https://${post.frontmatter.demo}`} >
@@ -96,6 +97,7 @@ export const pageQuery = graphql`
         date(formatString: "YYYY, MMM DD")
         demo
         source
+        figma
         tags
         img {
           childImageSharp {

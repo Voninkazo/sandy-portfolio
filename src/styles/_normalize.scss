@@ -451,13 +451,20 @@ textarea {
 }
 
 .demonstration_container {
+    text-align: center;
+    .design {
+        color: #000;
+    }
+    .design:hover {
+        color: rgb(224, 17, 17);
+        transition: color .5s;
+    }
     ul {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        gap: 10px;
         li:nth-of-type(1) a {
-            background-image: url(./icons/arrow_circle_up-24px.svg);
+            background-image: url(./icons/extent-link.svg);
             background-repeat: no-repeat;
             background-size: contain;
         }

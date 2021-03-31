@@ -42,6 +42,7 @@ class BlogIndex extends React.Component {
                   </h2>
                   <p>{node.excerpt}</p>
                   <div className="demonstration_container">
+                    <a className="design" href={`https://www.figma.com/${node.frontmatter.figma}`}>Figma design</a>
                     <ul>
                       <li>
                         <a href={`https://${node.frontmatter.demo}`} >
@@ -123,6 +124,7 @@ export const pageQuery = graphql`
             title
             demo
             source
+            figma
             img {
               childImageSharp {
                 gatsbyImageData(placeholder: BLURRED, layout: FULL_WIDTH, formats: [AUTO, AVIF, WEBP])

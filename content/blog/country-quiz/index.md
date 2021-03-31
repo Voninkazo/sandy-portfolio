@@ -6,6 +6,7 @@ img: ./country-quiz.png # Add image post (optional)
 tags: [HTML, React]
 demo:   country-quiz-sandy.netlify.app/
 source: Voninkazo/country-quiz
+figma: file/Gw0ZNBbYN8asqFlZWy3jG1
 
 ---
 I created this quiz on my own and I used JSX and React hooks tog et it done. 
