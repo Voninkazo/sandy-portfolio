@@ -2,7 +2,7 @@
 title: Birthday App
 # date: 2017-09-12 00:00:00 +0300
 description: # Add post description (optional)
-img: ./birthday-app.jpg # Add image post (optional)
+img: ./birthday-app.png # Add image post (optional)
 tags: [HTML, Vanilla Javascript] # add tag
 demo:  birthday-app-sandy.netlify.app/
 source: Voninkazo/birthday-app
