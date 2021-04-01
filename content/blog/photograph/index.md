@@ -1,5 +1,5 @@
 ---
-title: Country Quiz
+title: Photograph
 date: 2017-09-10 00:00:00 +0300
 description: # Add post description (optional)
 img: ./photograph.jpg # Add image post (optional)

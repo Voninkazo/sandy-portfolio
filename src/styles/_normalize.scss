@@ -479,6 +479,15 @@ textarea {
     }
 }
 
+@media(min-width: 993px) {
+    .demonstration_container {
+        text-align: start;
+        ul {
+            justify-content: start;
+        }
+    }
+}
+
 [type="search"] {
     -webkit-appearance: textfield;
     /* 1 */
