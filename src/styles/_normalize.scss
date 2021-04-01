@@ -453,11 +453,8 @@ textarea {
 .demonstration_container {
     text-align: center;
     .design {
-        color: #000;
-    }
-    .design:hover {
-        color: rgb(224, 17, 17);
-        transition: color .5s;
+        color: blue;
+        text-decoration: underline;
     }
     ul {
         display: flex;
