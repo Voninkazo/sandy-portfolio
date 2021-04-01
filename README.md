@@ -2,14 +2,35 @@
   Portfolio
 </h1>
 
-<!-- [![Netlify Status](https://api.netlify.com/api/v1/badges/a0a6e226-6c7a-43e0-bab6-0c658c8abca5/deploy-status)](https://app.netlify.com/sites/flexible-gatsby/deploys)
+<div align="center">
+  <h3>
+    <a href="https://github.com/Voninkazo/sandy-portfolio">
+      Source
+    </a>
+    <span> | </span>
+    <a href="https://sandy-portfolio.netlify.app/">
+      Demo
+    </a>
+  </h3>
+</div>
 
-A simple minimalist Gatsby starter for your blog. [Demo](https://flexible-gatsby.netlify.com/). -->
 
-<!-- Inspired by [flexible-jekyll](https://github.com/artemsheludko/flexible-jekyll).
-
-![home-page-screenshot](./static/promo-img.jpg)
-
-![home-page-screenshot](./static/home-page.jpg)
-
-![blog-page-screenshot](./static/post-example.jpg) -->
+    ## Quick Start 🚀
+1.  **Create a Gatsby site.**
+    Use the Gatsby CLI to create a new site, specifying the default starter.
+    ```sh
+    # create a new Gatsby site using the-plain-gatsby starter
+    gatsby new portfolio-gatsby https://github.com/Voninkazo/portfolio-gatsby
+    ```
+2.  **Start developing.**
+    Navigate into your new site's directory and start it up.
+    ```sh
+    cd portfolio-gatsby/
+    gatsby develop
+    ```
+3.  **Open the source code and start editing!**
+    Your site is now running at `http://localhost:8000`!
+    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
+## Contact
+Github [Voninkazo](https://github.com/Voninkazo)
+The portfolio based on https://github.com/wangonya/flexible-gatsby
