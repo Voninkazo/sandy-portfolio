@@ -8,5 +8,5 @@ demo:  birthday-app-sandy.netlify.app/
 source: Voninkazo/birthday-app
 figma: file/bb1Mie5R3mUhR77PtGG8bJ/Birthday-App?node-id=0%3A1
 ---
-I build this project from scratch using ES6 and ES2020. It renders a list of people with their birthdays from an API.
+I built this project from scratch using ES6 and ES2020. It renders a list of people with their birthdays from an API.
 In this application, users can filter the list by their birthdays and their names. Also, they can add new people to the list and delete people from the list.
