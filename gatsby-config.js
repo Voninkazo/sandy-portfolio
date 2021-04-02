@@ -2,8 +2,9 @@ module.exports = {
     siteMetadata: {
         title: `Sandy Portfolio`,
         description: `
-        I am a web developer focusing on front-end development based in Madagascar. I graduated from Onja.
-        I am self-motivated and I love learning new skills including coding, languages or anything else. I also love working together with people and helping others have opportunities to learn new things. 
+        I am a web developer focusing on front-end development based in Madagascar.
+        
+        I am self-motivated and I love learning new skills including coding, languages or anything else.
   `,
         author: `Sandy Raveloarisoa`,
         siteUrl: `https://github.com/Voninkazo/`,
