@@ -9,5 +9,5 @@ source: Voninkazo/country-quiz
 figma: file/Gw0ZNBbYN8asqFlZWy3jG1
 
 ---
-I created this quiz on my own and I used JSX and React hooks to get it done. 
+I created this quiz from scratch and I used JSX and React hooks to get it done. 
 I take the names of countries and their capitals and flags from an API and generate them randomly according to the questions.
