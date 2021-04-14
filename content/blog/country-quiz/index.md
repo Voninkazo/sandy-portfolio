@@ -2,7 +2,7 @@
 title: Country Quiz
 date: 2019-09-12
 description: # Add post description (optional)
-img: ./quiz-img.png # Add image post (optional)
+img: ./country-quiz-modified-screenshot.jpg # Add image post (optional)
 tags: [HTML, React]
 demo:   country-quiz-sandy.netlify.app/
 source: Voninkazo/country-quiz
