@@ -50,10 +50,7 @@ class BlogPostTemplate extends React.Component {
                   <ul>
                     <li>
                       <span>Demo</span>
-                      <a
-                        href={`https://${post.frontmatter.demo}`}
-                        target="_blank"
-                      >
+                      <a href={`${post.frontmatter.demo}`} target="_blank">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 24 24"
