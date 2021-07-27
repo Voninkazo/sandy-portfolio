@@ -9,5 +9,5 @@ source: Voninkazo/birthday-app
 figma: file/bb1Mie5R3mUhR77PtGG8bJ/Birthday-App?node-id=0%3A1
 ---
 
-I built this project from scratch using ES6 and ES2020. It renders a list of people with their birthdays from an API.
-In this application, users can filter the list by their birthdays and their names. Also, they can add new people to the list and delete people from the list.
+I built this project from scratch using ES6 and ES2020. It renders a list of people with their birthdays and their profile photos just right next to their names.
+In this application, users are able to search particular people both by their names and their birthday months. They can also add new people to the list, delete people from the list and edit both people's names and birthdays. In terms of technology, I used HTML5, CSS and vanilla Javascript to build the entire application.

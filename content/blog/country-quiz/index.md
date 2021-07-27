@@ -9,5 +9,6 @@ source: Voninkazo/country-quiz
 figma: file/Gw0ZNBbYN8asqFlZWy3jG1
 ---
 
-I created this quiz from scratch and I used JSX and React hooks to get it done.
-I take the names of countries and their capitals and flags from an API and generate them randomly according to the questions.
+I created this quiz from scratch using React and CSS.
+It allows users to select a country given either a flag, or a capital or even a region.When users answer correctly, they will move on to a next question, otherwise they will be redirected to the results to see their scores and then start over again.
+This application is replicated from a figma design.

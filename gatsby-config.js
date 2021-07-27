@@ -88,7 +88,3 @@ module.exports = {
     `gatsby-plugin-sass`,
   ],
 }
-
-// I am confident with HTML, CSS/SASS, Vanilla Javascript and React and I am having a desire to learn new web technology to add those skills that I currently own.
-
-//         I am from Ambatondrazaka, a city in the middle east of Madagascar where the greatest lake of Madagascar is located but I currently live in Mahanoro where Onja is found. I am really lloking forward to have a company and a team that can work with me and where I can give my commitemnt and contibute in the long term.
