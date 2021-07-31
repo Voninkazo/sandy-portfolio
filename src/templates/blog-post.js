@@ -43,14 +43,21 @@ class BlogPostTemplate extends React.Component {
                   <a
                     className="design"
                     href={`https://www.figma.com/${post.frontmatter.figma}`}
+                    aria-label="Figma"
                     target="_blank"
+                    rel="noopener"
                   >
                     Figma design
                   </a>
                   <ul>
                     <li>
                       <span>Demo</span>
-                      <a href={`${post.frontmatter.demo}`} target="_blank">
+                      <a
+                        href={`${post.frontmatter.demo}`}
+                        target="_blank"
+                        aria-label="Demo"
+                        rel="noopener"
+                      >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 24 24"
@@ -66,7 +73,9 @@ class BlogPostTemplate extends React.Component {
                       <span>Source</span>
                       <a
                         href={`https://github.com/${post.frontmatter.source}`}
+                        aria-label="Github source"
                         target="_blank"
+                        rel="noopener"
                       >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"

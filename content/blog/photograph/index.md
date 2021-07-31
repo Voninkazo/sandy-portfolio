@@ -2,7 +2,7 @@
 title: Photograph
 date: 2017-09-10 00:00:00 +0300
 description: # Add post description (optional)
-img: ./photograph.png # Add image post (optional)
+img: ./photograph.jpg # Add image post (optional)
 tags: [HTML, SASS, Javascript] # add tag
 demo: http://photograph.sandy.onja.org/
 source: Voninkazo/front-end-finals

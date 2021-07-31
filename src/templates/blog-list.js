@@ -31,13 +31,14 @@ class BlogIndex extends React.Component {
                     <Link
                       to={node.fields.slug}
                       className="post-thumbnail"
+                      aria-label="Background image"
                       style={{
                         backgroundImage: `url(${node.frontmatter.img.childImageSharp.gatsbyImageData.images.fallback.src})`,
                       }}
                     />
                   )}
                 <div className="post-content">
-                  <h2 className="post-title">
+                  <h2 className="post-title" kkey={node.fields.slug}>
                     <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
                   </h2>
                   <p>{node.excerpt}</p>
@@ -45,6 +46,8 @@ class BlogIndex extends React.Component {
                     <a
                       className="design"
                       href={`https://www.figma.com/${node.frontmatter.figma}`}
+                      aria-label="Figma"
+                      rel="noopener"
                       target="_blank"
                     >
                       Figma design
@@ -52,7 +55,12 @@ class BlogIndex extends React.Component {
                     <ul>
                       <li>
                         <span>Demo</span>
-                        <a href={`${node.frontmatter.demo}`} target="_blank">
+                        <a
+                          href={`${node.frontmatter.demo}`}
+                          target="_blank"
+                          aria-label="Demo"
+                          rel="noopener"
+                        >
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
@@ -68,7 +76,9 @@ class BlogIndex extends React.Component {
                         <span>Source</span>
                         <a
                           href={`https://github.com/${node.frontmatter.source}`}
+                          aria-label="Demo"
                           target="_blank"
+                          rel="noopener"
                         >
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -93,23 +103,23 @@ class BlogIndex extends React.Component {
           <nav className="pagination" role="pagination">
             <ul>
               {!isFirst && (
-                <p>
+                <li key={prevPage}>
                   <Link to={prevPage} rel="prev" className="newer-posts">
                     ← Previous Page
                   </Link>
-                </p>
+                </li>
               )}
-              <p>
+              <li>
                 <span className="page-number">
                   Page {currentPage} of {numPages}
                 </span>
-              </p>
+              </li>
               {!isLast && (
-                <p>
+                <li key={nextPage}>
                   <Link to={nextPage} rel="next" className="older-posts">
                     Next Page →
                   </Link>
-                </p>
+                </li>
               )}
             </ul>
           </nav>

@@ -8,7 +8,7 @@ const Sidebar = ({ siteMetadata }) => (
     <aside className="sidebar">
       <header>
         <div className="about">
-          <div className="cover-author-image">
+          <div className="cover-author-image" key={siteMetadata.author}>
             <Link to="/">
               <img src={Logo} alt={siteMetadata.author} />
             </Link>
@@ -25,7 +25,9 @@ const Sidebar = ({ siteMetadata }) => (
               <li>
                 <a
                   href={`https://twitter.com/${siteMetadata.social.twitter}`}
+                  aria-label="Twitter"
                   target="_blank"
+                  rel="noopener"
                 >
                   <i className="fa fa-twitter" aria-hidden="true" />
                 </a>
@@ -36,6 +38,7 @@ const Sidebar = ({ siteMetadata }) => (
                 <a
                   href={`https://facebook.com/${siteMetadata.social.facebook}`}
                   target="_blank"
+                  rel="noopener"
                 >
                   <i className="fa fa-facebook" aria-hidden="true" />
                 </a>
@@ -46,6 +49,8 @@ const Sidebar = ({ siteMetadata }) => (
                 <a
                   href={`https://github.com/${siteMetadata.social.github}`}
                   target="_blank"
+                  aria-label="GitHub"
+                  rel="noopener"
                 >
                   <i className="fa fa-github" aria-hidden="true" />
                 </a>
@@ -55,7 +60,9 @@ const Sidebar = ({ siteMetadata }) => (
               <li>
                 <a
                   href={`https://linkedin.com/in/${siteMetadata.social.linkedin}`}
+                  aria-label="Linkedin"
                   target="_blank"
+                  rel="noopener"
                 >
                   <i className="fa fa-linkedin" aria-hidden="true" />
                 </a>
@@ -63,7 +70,12 @@ const Sidebar = ({ siteMetadata }) => (
             )}
             {siteMetadata.social.email && (
               <li>
-                <a href={`mailto:${siteMetadata.social.email}`} target="_blank">
+                <a
+                  href={`mailto:${siteMetadata.social.email}`}
+                  aria-label="Email"
+                  target="_blank"
+                  rel="noopener"
+                >
                   <i className="fa fa-envelope-o" aria-hidden="true" />
                 </a>
               </li>
