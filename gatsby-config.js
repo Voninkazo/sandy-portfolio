@@ -4,7 +4,7 @@ module.exports = {
     description: `
         I am a web developer focusing on front-end development based in Madagascar.
         
-        I am self-motivated and I love learning new skills including coding, languages or anything else.
+        I am self-motivated and I love learning new skills including coding and languages.
   `,
     author: `Sandy Raveloarisoa`,
     siteUrl: `https://github.com/Voninkazo/`,
