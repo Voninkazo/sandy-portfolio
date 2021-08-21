@@ -43,15 +43,17 @@ class BlogIndex extends React.Component {
                   </h2>
                   <p>{node.excerpt}</p>
                   <div className="demonstration_container">
-                    <a
-                      className="design"
-                      href={`https://www.figma.com/${node.frontmatter.figma}`}
-                      aria-label="Figma"
-                      rel="noopener"
-                      target="_blank"
-                    >
-                      Figma design
-                    </a>
+                    {node.frontmatter.figma ? (
+                      <a
+                        className="design"
+                        href={`https://www.figma.com/${node.frontmatter.figma}`}
+                        aria-label="Figma"
+                        rel="noopener"
+                        target="_blank"
+                      >
+                        Figma design
+                      </a>
+                    ) : null}
                     <ul>
                       <li>
                         <span>Demo</span>

@@ -11,7 +11,6 @@ import 'katex/dist/katex.min.css'
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
-
     return (
       <DefaultLayout>
         <SEO title={post.frontmatter.title} description={post.excerpt} />
@@ -40,15 +39,17 @@ class BlogPostTemplate extends React.Component {
                 </header>
                 <div dangerouslySetInnerHTML={{ __html: post.html }} />
                 <div className="demonstration_container">
-                  <a
-                    className="design"
-                    href={`https://www.figma.com/${post.frontmatter.figma}`}
-                    aria-label="Figma"
-                    target="_blank"
-                    rel="noopener"
-                  >
-                    Figma design
-                  </a>
+                  {post.frontmatter.figma ? (
+                    <a
+                      className="design"
+                      href={`https://www.figma.com/${post.frontmatter.figma}`}
+                      aria-label="Figma"
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      Figma design
+                    </a>
+                  ) : null}
                   <ul>
                     <li>
                       <span>Demo</span>
