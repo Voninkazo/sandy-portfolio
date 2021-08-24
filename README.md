@@ -4,19 +4,19 @@
 
 <div align="center">
   <h3>
-    <a href="https://github.com/Voninkazo/sandy-portfolio">
+    <a href="https://github.com/Voninkazo/React-Native-learn-Malagasy-English">
       Source
     </a>
     <span> | </span>
-    <a href="https://sandy-portfolio.netlify.app/">
+    <a href="https://play.google.com/store/apps/details?id=com.learngasy&hl=en&gl=US">
       Demo
     </a>
   </h3>
 </div>
 
-I made this portfolio using gatsby. I got the template from gatsby and I changed the contents including texts and images into my own.
+This portfolio is build with template from gatsby Contents including texts and images are changed.
 
-Just right below, you can see a screenshot of this page and a list of several projects I have worked on.
+Just right below, you can see a screenshot of this page and a list of several projects.
 
 You can find a link to the demo and a link to the github source just right under each project.
 
